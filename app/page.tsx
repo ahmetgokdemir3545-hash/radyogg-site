@@ -1,13 +1,23 @@
 export default function Home() {
   return (
-    <div style={{ textAlign: 'center', marginTop: '50px' }}>
-      <h1 style={{ fontSize: '3rem', color: '#1a73e8' }}>Merhaba, Radyogg!</h1>
-      <p style={{ fontSize: '1.2rem', color: '#555' }}>
-        Canlı yayına hoş geldiniz. Kodları düzenleyip güncel içerik ekleyebilirsiniz.
-      </p>
-      <img src="/window.svg" alt="Window" width={150} height={150} style={{ marginTop: '20px' }} />
-      <img src="/globe.svg" alt="Globe" width={100} height={100} style={{ marginTop: '20px' }} />
-      <img src="/file.svg" alt="File" width={100} height={100} style={{ marginTop: '20px' }} />
+    <div style={{ fontFamily: "Arial, sans-serif", padding: "20px" }}>
+      <header style={{ backgroundColor: "#f5f5f5", padding: "10px" }}>
+        <h1>Radyogg</h1>
+        <nav>
+          <a href="#" style={{ marginRight: "15px" }}>Anasayfa</a>
+          <a href="#" style={{ marginRight: "15px" }}>İletişim</a>
+          <a href="#">Hakkımızda</a>
+        </nav>
+      </header>
+
+      <main style={{ marginTop: "20px" }}>
+        <p>Buraya ana içerik gelecek…</p>
+      </main>
+
+      <footer style={{ marginTop: "40px", borderTop: "1px solid #ccc", padding: "10px" }}>
+        &copy; 2026 Radyogg
+      </footer>
     </div>
-  )
+  );
 }
+
